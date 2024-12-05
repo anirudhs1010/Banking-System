@@ -10,7 +10,8 @@ class BankingSystemImpl : public BankingSystem {
         public:
                 bool CreateAccount(int timestamp, const std::string&account_id);
                 std::optional<int> Deposit(int timestamp, const std::string& account_id, int amount);
-                std::optional<int> Transfer(int timestamp, const std::string& source_account_id, const std::string& target_account_id, int amount);     
+                std::optional<int> Transfer(int timestamp, const std::string& source_account_id, const std::string& target_account_id, int amount);  
+                std::vector<std::string> TopSpenders(int timestamp, int n);   
 };
 
 #endif  // BANKING_SYSTEM_IMPL_HPP_

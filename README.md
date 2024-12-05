@@ -1,4 +1,5 @@
-Banking System Implementation
+**Banking System Implementation**
+
 This project implements a basic banking system with the following functionalities:
 
 Account Management: Create and manage accounts.

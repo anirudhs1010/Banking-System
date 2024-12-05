@@ -2,7 +2,9 @@
 
 This project implements a basic banking system with the following functionalities:
 -Account Management: Create and manage accounts.
+
 -Transactions: Deposit money into accounts, transfer funds between accounts.
+
 -Analytics: Retrieve the top spenders based on outgoing transactions.
 
 Files:
